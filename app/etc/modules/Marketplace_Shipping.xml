@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Marketplace_Shipping>
+            <codePool>community</codePool>
+        </Marketplace_Shipping>
+    </modules>
+</config>
