@@ -2,8 +2,7 @@
 <config>
     <modules>
         <Marketplace_Shipping>
-            <active>true</active>
-            <codePool>community</codePool>
+            <version>0.1.0</version>
         </Marketplace_Shipping>
     </modules>
 </config>
