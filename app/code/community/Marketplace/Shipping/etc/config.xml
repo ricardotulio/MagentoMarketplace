@@ -5,4 +5,27 @@
             <version>0.1.0</version>
         </Marketplace_Shipping>
     </modules>
+    <global>
+        <models>
+            <marketplace_shipping>
+                <class>Marketplace_Shipping_Model</class>
+            </marketplace_shipping>
+        </models>
+        <helpers>
+            <marketplace_shipping>
+                <class>Marketplace_Shipping_Helper</class>
+            </marketplace_shipping>
+        </helpers>
+    </global>
+    <default>
+        <carriers>
+            <marketplace_shipping>
+                <active>1</active>
+                <model>marketplace_shipping/shipping</model>
+                <title>Marketplace Shipping</title>
+                <sort_order>10</sort_order>
+                <sallowspecific>0</sallowspecific>
+            </marketplace_shipping>
+        </carriers>
+    </default>
 </config>

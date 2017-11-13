@@ -4,6 +4,9 @@
         <Marketplace_Shipping>
             <active>true</active>
             <codePool>community</codePool>
+            <depends>
+                <Mage_Shipping />
+            </depends>
         </Marketplace_Shipping>
     </modules>
 </config>
